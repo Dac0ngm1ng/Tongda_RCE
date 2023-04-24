@@ -48,8 +48,8 @@ def RCE_Check(url):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="通达OA v11.9 getdata RCE")
 
-    parser.add_argument("-u", "--url", help="目标url, python TongDa.py -u http://xxx.com")
-    parser.add_argument("-f", "--file", help="批量urls, python TongDa.py -f urls.txt")
+    parser.add_argument("-u", "--url", help="目标url, python3 Tongda_RCE.py -u http://xxx.com")
+    parser.add_argument("-f", "--file", help="批量urls, python3 Tongda_RCE.py -f urls.txt")
     args = parser.parse_args()
 
     '''单个url扫描'''
